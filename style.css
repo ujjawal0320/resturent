@@ -21,7 +21,7 @@
 .logo{
     height: 70px;
     width: 200px;
-    background-image: url("imagefilelogo.png");
+    background-image: url("imagefile/logo.png");
     
 
 }
@@ -46,7 +46,7 @@
     width:500px ;
     margin-left: 10px;
     
-    background-image: url("imagefilehero_image.png");
+    background-image: url("imagefile/hero_image.png");
     background-size: cover;
     animation: rotate 10s ease-in-out 0s infinite normal;
 }
