@@ -251,6 +251,226 @@ button:hover{
   }
 
 
+ /* For tablets and below (max-width: 992px) */
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heropart1, .heropart2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero1-img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .hero2content h1 {
+    font-size: 40px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+  }
+
+  .feature {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-areas: 
+      "I1"
+      "I2"
+      "I3"
+      "I4"
+      "I5"
+      "I6"
+      "I7";
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer > div {
+    margin: 10px 0;
+  }
+}
+
+/* For mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+  .hero1-img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .hero2content h1 {
+    font-size: 30px;
+  }
+
+  .hero2content p {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .offertext {
+    font-size: 14px;
+  }
+
+  .menu {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .expmenu h2 {
+    font-size: 20px;
+  }
+
+  .grid-image {
+    border-radius: 5px;
+  }
+
+  .footer img {
+    width: 100px;
+  }
+}
+
+/* for mobile phones */
+
+
+@media (max-width: 600px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+  }
+
+  .heropart1,
+  .heropart2 {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .hero1-img {
+    width: 90%;
+    max-width: 250px;
+    height: 250px;
+    margin: 0 auto 15px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .offer {
+    width: fit-content;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin: 0 auto 15px auto;
+  }
+
+  .offertext {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero2content h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .hero2content p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 15px auto;
+    max-width: 90%;
+  }
+
+  button {
+    width: 140px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: auto;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .grid {
+    grid-template-areas:
+      "I1"
+      "I2"
+      "I3"
+      "I4"
+      "I5"
+      "I6"
+      "I7";
+  }
+
+  .grid-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer > div {
+    margin: 10px 0;
+  }
+
+  .list1 ul,
+  .list2 ul {
+    padding-left: 0;
+  }
+
+  .logopart img {
+    width: 100px;
+  }
+}
+
+
+
   
 
 
